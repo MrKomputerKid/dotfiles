@@ -5,5 +5,6 @@ eval "$(oh-my-posh init fish --config $(brew --prefix oh-my-posh)/themes/craver.
 alias ls="lsd"
 alias df="duf"
 alias man="tldr"
+alias apt="sudo nala"
 neofetch
 end
