@@ -6,6 +6,7 @@ eval "$(oh-my-posh init fish --config $(brew --prefix oh-my-posh)/themes/craver.
 alias ls="lsd"
 alias df="duf"
 alias man="tldr"
+alias du="ncdu"
 function sudo
         if [ "$argv[1]" = "apt" ]
                 command sudo nala $argv[2..-1]
